@@ -1,55 +1,66 @@
 .header-component {
-  width: 100%;
-  position: fixed;
+    width: 100%;
+    position: fixed;
 }
 
-.about-component{
-  height: 100vh;
+.about-component {
+    height: 100vh;
 }
 
-.left-about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.left-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.left-about h1{
-  font-family: Poppins, serif;
+.left-about h1 {
+    font-family: Poppins, serif;
 }
 
-.left-about h2{
-  color: #F9A826;;
+.left-about h2 {
+    color: #F9A826;;
 }
 
-.left-about p{
-  margin-top: 20px;
-  font-family: Poppins, serif;
+.left-about p {
+    margin-top: 20px;
+    font-family: Poppins, serif;
 }
 
-.right-about{
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+.right-about {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
-.right-about img{
-  width: 425px;
-  height: 550px;
-  margin-top: 50px;
+.right-about img {
+    width: 425px;
+    height: 550px;
+    margin-top: 50px;
+    z-index: 2;
 }
 
-.services-component{
-  height: 100vh;
-  background-color: yellow;
+.shape {
+    position: absolute;
+    width: 512px;
+    height: 312px;
+    background-color: #F9A826;
+    border-radius: 66% 34% 66% 34% / 64% 41% 59% 36%;
+  margin-bottom: auto;
+  z-index: 1;
 }
 
-.education-component{
-  height: 100vh;
-  background-color: blue;
+.services-component {
+    height: 100vh;
+    background-color: yellow;
 }
 
-.project-component{
-  height: 100vh;
-  background-color: black;
+.education-component {
+    height: 100vh;
+    background-color: blue;
+}
+
+.project-component {
+    height: 100vh;
+    background-color: black;
 }
