@@ -29,9 +29,12 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
+            service nginx stop
+            cd /etc/nginx/sites-enabled/
+            rm -f default.save
             cd /var/www/html/react_profile/
             git pull origin master
             git status
             npm i
             npm run build
-            service nginx reload
+            service nginx start
