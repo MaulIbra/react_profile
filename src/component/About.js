@@ -19,7 +19,6 @@ const About = () => {
                 </Col>
                 <Col className="right-about">
                     <img src={profile_image} alt=""/>
-                    <div className="shape"/>
                 </Col>
             </Row>
 
