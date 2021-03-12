@@ -26,12 +26,12 @@ const Headers = () => {
                         <Nav.Link>
                             <Link
                                 activeClass="active"
-                                to="service"
+                                to="experience"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
                                 duration={500}>
-                                Service
+                                Experience
                             </Link>
                         </Nav.Link>
                         <Nav.Link>
