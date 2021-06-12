@@ -40,7 +40,7 @@ const Headers = () => {
                                 to="education"
                                 spy={true}
                                 smooth={true}
-                                offset={0}
+                                offset={-100}
                                 duration={500}>
                                 Education
                             </Link>
