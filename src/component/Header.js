@@ -18,7 +18,7 @@ const Headers = () => {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={0}
+                                offset={-100}
                                 duration={500}>
                                 About
                             </Link>
@@ -29,7 +29,7 @@ const Headers = () => {
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                offset={0}
+                                offset={-100}
                                 duration={500}>
                                 Experience
                             </Link>
