@@ -92,7 +92,7 @@
 }
 
 .services-component {
-    height: 50vh;
+    height: auto;
     background-color: rgb(255, 255, 255);
 }
 
@@ -137,7 +137,6 @@ ul.timeline > li > p {
 
 .education-component {
     height: auto;
-    background-color: #F4F1FF;
 }
 
 .project-component {
@@ -194,4 +193,31 @@ ul.timeline > li > p {
 
 .education-image{
     width: 500px;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.box#first{
+    background-color: #FFF2D8;
+}
+
+.box#second{
+    background-color: #F5F5F5;
+}
+
+.box#third{
+    background-color: #CBD8F7;
+}
+.box#fourth{
+    background-color: #F8D7D7;
 }
